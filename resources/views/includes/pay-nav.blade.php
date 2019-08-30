@@ -4,7 +4,7 @@
         <div class="nav-top flex-grow-1">
             <div class="container d-flex flex-row h-100 align-items-center">
                 <div class="text-center navbar-brand-wrapper d-flex align-items-center">
-                    <a class="navbar-brand brand-logo" href="#"><img src="{{asset('asset/images/download.png')}}" alt="logo"/></a>
+                    <a class="navbar-brand brand-logo" href="#"><img src="{{secure_asset('asset/images/download.png')}}" alt="logo"/></a>
                 </div>
                 <div class="navbar-menu-wrapper d-flex align-items-center justify-content-between flex-grow-1">
 
@@ -14,7 +14,7 @@
 
                         <li class="nav-item nav-profile dropdown">
                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
-                                <img src="{{asset('asset/images/faces/face1.jpg')}}" alt="profile"/>
+                                <img src="{{secure_asset('asset/images/faces/face1.jpg')}}" alt="profile"/>
                                 <span class="nav-profile-name">Administrator</span>
                             </a>
                             <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
