@@ -8,6 +8,12 @@
                 <div class="card-header">{{ __('Login') }}</div>
 
                 <div class="card-body">
+                     <div class="alert alert-warning" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button><p>Default Login Details</p>
+                    <strong>Email :</strong>admin@admin.com <br> <strong>Password :</strong>123456
+                </div>
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
 

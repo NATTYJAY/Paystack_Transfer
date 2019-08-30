@@ -9,17 +9,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>PayStack Transfer Test</title>
     <!-- plugins:css -->
-    <link rel="stylesheet" href="{{secure_asset('asset/vendors/iconfonts/simple-line-icon/css/simple-line-icons.css')}}">
-    <link rel="stylesheet" href="{{secure_asset('asset/vendors/iconfonts/flag-icon-css/css/flag-icon.min.css')}}">
-    <link rel="stylesheet" href="{{secure_asset('asset/vendors/css/vendor.bundle.base.css')}}">
-    <link rel="stylesheet" href="{{secure_asset('asset/vendors/css/vendor.bundle.addons.css')}}">
+    <link rel="stylesheet" href="{{asset('asset/vendors/iconfonts/simple-line-icon/css/simple-line-icons.css')}}">
+    <link rel="stylesheet" href="{{asset('asset/vendors/iconfonts/flag-icon-css/css/flag-icon.min.css')}}">
+    <link rel="stylesheet" href="{{asset('asset/vendors/css/vendor.bundle.base.css')}}">
+    <link rel="stylesheet" href="{{asset('asset/vendors/css/vendor.bundle.addons.css')}}">
     <!-- endinject -->
     <!-- plugin css for this page -->
     <!-- End plugin css for this page -->
     <!-- inject:css -->
-    <link rel="stylesheet" href="{{secure_asset('asset/css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('asset/css/style.css')}}">
     <!-- endinject -->
-    <link rel="shortcut icon" href="{{secure_asset('asset/images/download.png')}}" />
+    <link rel="shortcut icon" href="{{asset('asset/images/download.png')}}" />
     <style>
 table {
   font-family: arial, sans-serif;

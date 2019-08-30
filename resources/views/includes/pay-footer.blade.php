@@ -1,15 +1,15 @@
 </div>
 <!-- container-scroller -->
 <!-- plugins:js -->
-<script src="{{secure_asset('asset/jquery.min.js')}}"></script>
-<script src="{{secure_asset('asset/vendors/js/vendor.bundle.base.js')}}"></script>
-<script src="{{secure_asset('asset/vendors/js/vendor.bundle.addons.js')}}"></script>
+<script src="{{asset('asset/jquery.min.js')}}"></script>
+<script src="{{asset('asset/vendors/js/vendor.bundle.base.js')}}"></script>
+<script src="{{asset('asset/vendors/js/vendor.bundle.addons.js')}}"></script>
 <!-- endinject -->
 <!-- Plugin js for this page-->
 <!-- End plugin js for this page-->
 <!-- inject:js -->
-<script src="{{secure_asset('asset/js/template.js')}}"></script>
-<script src="{{secure_asset('asset/js/data-table.js')}}"></script>
+<script src="{{asset('asset/js/template.js')}}"></script>
+<script src="{{asset('asset/js/data-table.js')}}"></script>
 
  <script type="text/javascript">
     function loadRecipients(){

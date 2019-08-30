@@ -9,12 +9,12 @@
 
             </div>
             <div class="modal-body">
-                {{--<div class="alert alert-warning" role="alert">--}}
-                    {{--<button type="button" class="close" data-dismiss="alert" aria-label="Close">--}}
-                        {{--<span aria-hidden="true">&times;</span>--}}
-                    {{--</button>--}}
-                    {{--<strong>Please note that, After the confirmation either to accept or reject, you cannot revoke it back</strong>--}}
-                {{--</div>--}}
+                <div class="alert alert-warning" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <strong>Please note:</strong> To continue Insert your bank account and select your bank code
+                </div>
                
                 <form action="#" class="form-horizontal" method="POST" id="acceptform">
  
