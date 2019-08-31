@@ -213,7 +213,7 @@ function finish_txs(){
                     $('.alrt-otp2').removeClass('alert alert-success');
                     $('.alrt-otp2').html('');
                     $('#modaldemOTP').modal('hide');
-                    },800);
+                    },1000);
                 }
               
                     //console.log(result);
